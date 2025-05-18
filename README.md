@@ -44,7 +44,10 @@ RUN pip install flask
 
 EXPOSE 5000
 
-CMD ["python", "app.py"]
+CMD ["python", "app.py"]```
+
+
+
 ## Métricas y herramientas utilizadas
 
 El benchmarking se realizó mediante un script en Python que lanza solicitudes HTTP a una aplicación Flask durante un periodo de 60 segundos. Durante ese tiempo, se recolectaron las siguientes métricas:
